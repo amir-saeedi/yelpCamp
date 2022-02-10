@@ -16,7 +16,7 @@ const User = require("./models/user");
 
 // const MongoDBStore = require("connect-mongo");
 
-const dbUrl = process.env.DB_URL || "mongodb://localhost:27017/yelp-camp";
+const dbUrl = process.env.DB_URL || "mongodb://0.0.0.0:27017/yelp-camp";
 // const dbUrl = process.env.DB_URL;
 // mongodb+srv://yelpCamp:<password>@cluster0.61rie.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
