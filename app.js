@@ -24,7 +24,7 @@ const userRoutes = require("./routes/users");
 const campgroundRoutes = require("./routes/campgrounds");
 const reviewRoutes = require("./routes/reviews");
 
-// "mongodb://localhost:27017/yelp-camp"
+// 'mongodb://localhost:27017/yelp-camp'
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
   useCreateIndex: true,
